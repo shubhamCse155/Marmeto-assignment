@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="full-container">
+        <section class="images">
+            <div class="Product-Image">
+                <img src="images/main-img.jpg" alt="main-img">
+            </div>
+            <div class="Thumbnails">
+                <label for="img-1">
+                <input class="img-check" type="radio" name="images" id="img-1" data-index="0" checked>
+                <img class="thum-img" src="images/main-img.jpg" alt="">
+            </label>
+
+                <label for="img-2">
+                <input class="img-check" type="radio" name="images" id="img-2" data-index="1">
+                <img class="thum-img" src="images/second-img.jpg" alt="">
+            </label>
+
+                <label for="img-3">
+                <input class="img-check" type="radio" name="images" id="img-3" data-index="2">
+                <img class="thum-img" src="images/third-img.jpg" alt="">
+            </label>
+
+                <label for="img-4">
+                <input class="img-check" type="radio" name="images" id="img-4" data-index="3">
+                <img class="thum-img" src="images/first-img.jpg" alt="">
+            </label>
+
+
+            </div>
+
+        </section>
+
+        <section class="product-info">
+            <p class="product-vendor"></p>
+            <p class="product-title"></p>
+
+            <div class="price-container">
+                <div class="both-price">
+                    <p class="price"></p>
+                    <p class="compare-at-price"></p>
+                </div>
+                <p class="percentage-off">35% OFF</p>
+            </div>
+
+            <div class="color-selector">
+                <p>Choose a Color</p>
+                <div class="colors">
+
+                    <!-- <input type="radio" id="option1" name="options" value="option1" checked>
+                    <label for="option1" id="one"><i class='bx bx-check-square'></i></label>
+
+                    <input type="radio" id="option2" name="options" value="option2">
+                    <label for="option2" id="two"><i class='bx bx-check-square'></i></label>
+
+                    <input type="radio" id="option3" name="options" value="option3">
+                    <label for="option3" id="three"><i class='bx bx-check-square'></i></label>
+
+                    <input type="radio" id="option4" name="options" value="option3">
+                    <label for="option4" id="four"><i class='bx bx-check-square'></i></label> -->
+                </div>
+            </div>
+
+            <div class="size-selector">
+                <p>Choose a Size</p>
+
+                <form>
+                    <!-- <input type="radio" id="Small" name="option" value="option1" checked>
+                    <label for="Small">Small</label>
+
+                    <input type="radio" id="Medium" name="option" value="option2">
+                    <label for="Medium">Medium</label>
+
+                    <input type="radio" id="Large" name="option" value="option3">
+                    <label for="Large">Large</label>
+
+                    <input type="radio" id="Extra Large" name="option" value="option3">
+                    <label for="Extra Large">Extra Large</label>
+
+                    <input type="radio" id="XXL" name="option" value="option3">
+                    <label for="XXL">XXL</label> -->
+                </form>
+            </div>
+
+            <div class="quantity-selector">
+                <div class="button-container">
+                    <button id="minus-btn">-</button>
+                    <div id="qantity">1</div>
+                    <button id="plus-btn">+</button>
+                </div>
+                <button id="add-to-cart"><i class='bx bxs-shopping-bag'></i>  Add To Cart</button>
+            </div>
+
+            <div class="sucess-msg">
+                Embrace Sideboard with Color Yellow and Size Small added to cart
+            </div>
+
+            <div class="description">
+                <!-- The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted
+                from premium materials for a combination of style, durability, and reliability. -->
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
